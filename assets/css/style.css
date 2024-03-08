@@ -1141,16 +1141,16 @@ a:hover {
   padding: 4rem 0 0 0;
 }
 
-.contact-mf {
+/* .contact-mf {
   margin-top: 4rem;
-}
+} */
 
-@media (min-width: 767px) {
+/* @media (min-width: 767px) {
   .contact-mf .box-pl2 {
     margin-top: 3rem;
     padding-left: 0rem;
   }
-}
+} */
 
 .php-email-form .error-message {
   display: none;
@@ -1486,5 +1486,26 @@ footer .credits a {
   display: flex;
   flex-direction: column;
   justify-content: space-between; /* Adjusts space based on content size */
+}
+
+.centered-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+  text-align: center; /* Ensure text and inline elements are centered */
+  height: 100%; /* Take full height of its container */
+}
+
+.centered-content .title-left {
+  text-align: center;
+}
+.center-card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
 }
 

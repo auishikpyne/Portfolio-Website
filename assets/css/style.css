@@ -1509,3 +1509,41 @@ footer .credits a {
   height: 100%;
 }
 
+/* Change navbar background color */
+#header {
+  background: #000; /* Set to black */
+}
+
+/* Change navbar link color */
+#header .navbar a.nav-link {
+  color: #fff; /* Set to white */
+}
+
+/* Change navbar link color on hover and active state */
+#header .navbar a.nav-link:hover,
+#header .navbar .active>a.nav-link,
+#header .navbar li.dropdown:hover>a.nav-link {
+  color: #ddd; /* Lighter shade of white for hover and active states */
+}
+
+
+/* Footer styling */
+footer {
+  background-color: #232324; /* Bootstrap primary blue */
+  color: white;
+  text-align: center; /* Center-align the text */
+  padding: 10px 0; /* Add some padding */
+}
+
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  color: #ddd; /* Lighter shade for hover effect */
+}
+
+main {
+  margin-top: 70px; /* Adjust this value to match the height of your navbar */
+}
+

@@ -1547,3 +1547,9 @@ main {
   margin-top: 70px; /* Adjust this value to match the height of your navbar */
 }
 
+nav ul li.active a {
+  color: #fff; /* Or your active color */
+  border-bottom: 2px solid white; /* Or other styles for active state */
+}
+
+

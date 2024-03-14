@@ -1455,6 +1455,7 @@ footer {
   color: #fff;
   padding: 25px 0;
   background: #0062d3;
+  
 }
 
 footer .copyright {
@@ -1552,4 +1553,10 @@ nav ul li.active a {
   border-bottom: 2px solid white; /* Or other styles for active state */
 }
 
-
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #f8f9fa; /* Change this to match your footer background color */
+  padding: 20px 0; /* Adjust padding as needed */
+}

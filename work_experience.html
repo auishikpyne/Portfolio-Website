@@ -64,15 +64,18 @@
                   February 2023 - Present<br>Dhaka, Bangladesh
                 </p>
                 <ul>
-                  <li>Engineered and deployed a predictive model for gender and age detection, offering high-accuracy insights for tailored user experiences.</li>
-                  <li>Custom-trained the VITS text-to-speech (TTS) model on Bengali datasets, optimizing for ONNX to facilitate rapid cross-platform deployment.</li>
-                  <li>Developed a versatile multispeaker TTS framework by training the Your TTS model, enabling singular model use for diverse voice synthesis.</li>
-                  <li>Enhanced automatic speech recognition (ASR) capabilities by training the NVIDIA Nemo Quartznet model on meticulously annotated Bengali datasets, incorporating beam search for top-tier predictions.</li>
-                  <li>Architected a Speaker Diarization system utilizing the Nvidia TitaNet-L model to accurately identify individual speakers in multiparty conversations.</li>
-                  <li>Formulated and implemented a scalable FastSpeech 2 TTS pipeline, integrating TorchServe, WebSocket, and Redis for modular, high-throughput batch processing.</li>
-                  <li>Conducted innovative unsupervised clustering of various open-source noises using Kmeans, t-SNE, and silhouette scoring, laying the groundwork for future noise augmentation strategies.</li>
-                  <li>Devised a comprehensive Biometric Authentication System incorporating a proxy server framework for tri-layered security: speaker, facial, and fingerprint verification. Performed ROC & AUC curve analysis for setting up threshold for authentication.</li>
-                  <li>Created a speech quality evaluation tool leveraging the NISQA model to quantitatively assess speech signal integrity and clarity.</li>
+                  <li>Deployed a gender and age predictive model from speech, achieving 93% and 74% accuracy respectively.
+                  </li>
+                  <li>Optimized a custom-trained VITS text-to-speech model for ONNX on Bengali datasets, doubling inference speed for rapid cross-platform deployment.
+                  </li>
+                  <li>Developed a Your TTS-based multi-speaker model, enabling diverse voice synthesis with a single model.
+                  </li>
+                  <li>Enhanced ASR by training NVIDIA's Nemo Quartznet on Bengali datasets with beam search, improving prediction accuracy.</li>
+                  <li>Built a Speaker Diarization system using Nvidia TitaNet-L, identifying speakers in multi-party conversations with over 80% accuracy.</li>
+                  <li>Implemented a 3x faster FastSpeech 2 pipeline integrating TorchServe, WebSocket, and Redis for efficient batch processing.</li>
+                  <li>Conducted unsupervised clustering of noises using K-means, t-SNE, and silhouette scoring for future noise augmentation strategies.</li>
+                  <li>Developed a tri-layered Biometric Authentication System with speaker, facial, and fingerprint verification, supported by ROC & AUC analysis for threshold setting.</li>
+                  <li>Created a NISQA-based speech quality evaluation tool for quantitative assessment of speech signal integrity and clarity.</li>
 
                 </ul>
                 <p class="tech-used"><strong>Technologies:</strong> Python, FastAPI, Scikitlearn, Tensorflow, Pytorch, Tensorboard, MLflow, Redis, Torchserve, Websocket, MongoDB, Linux, Lambdalabs</p>
@@ -82,7 +85,7 @@
                 </p>
                 <ul>
                   <li>Implemented audio analysis techniques for pitch detection, volume normalization, and energy calculation.</li>
-                  <li>Integrated WebRTC VAD and sileroVAD models for voice activity detection across various use cases.</li>
+                  <li>Doubled voice activity detection accuracy across use cases with sileroVAD from WebRTCVAD.</li>
                   <li>Enhanced audio quality using DeepfilterNet and Meta speech enhancement pretrained models for noise reduction.</li>
                   <li>Optimized audio data processing speed by a factor of 5 using Python's multiprocessing.</li>
                   <li>Configured Azure and Google Cloud STT/TTS APIs for comprehensive speech-to-text and text-to-speech evaluations.</li>
